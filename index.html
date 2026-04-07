@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b1020" />
+
+  <title>YASUO-DEV Portal</title>
+  <link rel="icon" href="./assets/icons/favicon.png" type="image/png" />
+
+  <meta
+    name="description"
+    content="発信先・技術情報・試作デモへの入口を1ページにまとめた軽量ポータルです。"
+  />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="YASUO-DEV Portal" />
+  <meta
+    property="og:description"
+    content="発信先・技術情報・試作デモへの入口を1ページにまとめた軽量ポータルです。"
+  />
+  <meta property="og:url" content="https://yasuo-dev.github.io/yasuo-dev-portal-mini/" />
+  <meta property="og:image" content="https://yasuo-dev.github.io/yasuo-dev-portal-mini/assets/images/ogp.png" />
+  <meta property="og:site_name" content="YASUO-DEV Portal" />
+  <meta property="og:locale" content="ja_JP" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="YASUO-DEV Portal" />
+  <meta
+    name="twitter:description"
+    content="発信先・技術情報・試作デモへの入口を1ページにまとめた軽量ポータルです。"
+  />
+  <meta name="twitter:image" content="https://yasuo-dev.github.io/yasuo-dev-portal-mini/assets/images/ogp.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-grid"></div>
+
+  <main class="container">
+    <section class="hero-card">
+      <div class="profile-row">
+        <div class="avatar" id="avatarText">Y</div>
+        <div class="profile-text">
+          <p class="eyebrow" id="eyebrow">DEVELOPMENT / SECURITY / AI</p>
+          <h1 id="pageTitle">YASUO-DEV Links</h1>
+          <p class="lead" id="leadText">
+            発信先・技術情報・試作デモへの入口を1ページにまとめた軽量ポータルです。<br />
+            X、note、Qiita、Zenn、GitHub をこちらから確認できます。
+          </p>
+        </div>
+      </div>
+
+      <div class="badge-row" id="badgeRow"></div>
+    </section>
+
+    <section class="work-section" aria-labelledby="workHeading">
+      <div class="section-heading">
+        <h2 id="workHeading">What I build</h2>
+        <p>試作中・公開中のデモや制作例</p>
+      </div>
+      <div class="work-grid" id="workSection"></div>
+    </section>
+
+    <section class="links-block" aria-labelledby="writeHeading">
+      <div class="section-heading">
+        <h2 id="writeHeading">Where I write</h2>
+        <p>技術記事・長文記事・短文発信へのリンク</p>
+      </div>
+      <section class="links-section" id="linksSection"></section>
+    </section>
+
+    <section class="about-card" aria-labelledby="aboutHeading">
+      <h2 id="aboutHeading">About</h2>
+      <p id="aboutText"></p>
+    </section>
+
+    <footer class="footer">
+      <p id="footerText"></p>
+    </footer>
+  </main>
+
+  <script src="./links.js"></script>
+</body>
+</html>
