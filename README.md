@@ -1,4 +1,4 @@
-# yasuo-dev-portal-mini
+# yasuo-dev-portal-mini-public
 
 静的ホスティング向けの軽量プロフィール / ポータルテンプレートです。  
 発信先、技術情報、試作デモへの導線を1ページにまとめる用途を想定しています。
